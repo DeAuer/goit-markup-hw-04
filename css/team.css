@@ -30,7 +30,7 @@
   margin-bottom: 72px;
 }
 
-.team li {
+.team-card {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px
