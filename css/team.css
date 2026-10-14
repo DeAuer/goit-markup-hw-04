@@ -6,7 +6,7 @@
   padding: 120px 0;
 }
 
-.team ul {
+.team-list {
   display: flex;
   gap: 24px;
 }
@@ -33,7 +33,11 @@
 .team-card {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
-  border-radius: 0 0 4px 4px
+  border-radius: 0 0 4px 4px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team h3 {
@@ -49,4 +53,20 @@
   text-align: center;
   line-height: 1.5;
   color: #434455;
+}
+
+.team .icon-social {
+  width: 16px;
+  height: 16px;
+}
+
+.team-socials {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.team .link-social:hover,
+.team .link-social:focus {
+  background-color: #404bbf;
 }
